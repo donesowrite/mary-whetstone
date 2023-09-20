@@ -1,3 +1,73 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+#home-background,
+header {
+    background-color: rgb(11, 116, 11);
+    background: url(images/fungi-of-saskatchewan.JPG);
+    background-size: cover;
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#physician-background,
+header {
+    background-color: rgb(11, 116, 11);
+    background: url(images/doctors-desk.jpg);
+    background-size: cover;
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#mycologist-background,
+header {
+    background-color: rgb(11, 116, 11);
+    background: url(images/mushrooms-on-log.jpg);
+    background-size: cover;
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header,
+h1 h2 {
+    color: white;
+    text-shadow:
+        0.2em 0 black,
+        0 0.1em black;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a:hover {
+    background-color: rgb(11, 116, 11)
+}
+
 h1 {
     font-family: serif;
     font-weight: bolder;
@@ -20,32 +90,15 @@ p {
     font-size: 16;
 }
 
-#flex-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    gap: 20px;
-    background-color: rgb(234, 225, 214);
+footer {
+    color: white;
+    background-color: rgb(11, 116, 11);
+    height: 100px;
+    text-align: center;
+    padding-top: 55px;
+    margin-top: 30px;
 }
 
-#flex-container-2 {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    gap: 20px;
+footer a {
+    color: cornflowerblue;
 }
-
-.flex-image {
-    display: flex;
-    flex: 1;
-
-}
-
-.flex-text {
-    display: flex;
-    flex: 3;
-    flex-direction: column;
-
-}
-
-/* #703d06: brown #063970: blue */
