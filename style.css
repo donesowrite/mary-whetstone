@@ -6,7 +6,6 @@
 
 #home-background,
 header {
-    background-color: rgb(11, 116, 11);
     background: url(images/fungi-of-saskatchewan.JPG);
     background-size: cover;
     height: 200px;
@@ -19,7 +18,6 @@ header {
 
 #physician-background,
 header {
-    background-color: rgb(11, 116, 11);
     background: url(images/doctors-desk.jpg);
     background-size: cover;
     height: 200px;
@@ -32,7 +30,6 @@ header {
 
 #mycologist-background,
 header {
-    background-color: rgb(11, 116, 11);
     background: url(images/mushrooms-on-log.jpg);
     background-size: cover;
     height: 200px;
@@ -65,7 +62,8 @@ nav a {
 }
 
 a:hover {
-    background-color: rgb(11, 116, 11)
+    background-color: rgb(11, 116, .200);
+    color: white;
 }
 
 h1 {
@@ -88,12 +86,42 @@ h3 {
 p {
     font-family: sans-serif;
     font-size: 16;
+    line-height: 1.5;
+}
+.flexbox {
+    display:flex
 }
 
+#harriet {
+    display:inline-block;
+    margin-left: 40px;
+}
+#charles-peck {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+details>summary {
+    padding: 4px;
+    margin: 10px;
+    width: 200px;
+    background-color: #eeeeee;
+    border: none;
+    box-shadow: 1px 1px 2px #bbbbbb;
+    cursor: pointer;
+}
+
+details>p {
+    background-color: #eeeeee;
+    padding: 4px;
+    margin: 10px;
+    box-shadow: 1px 1px 2px #bbbbbb;
+}
 footer {
     color: white;
-    background-color: rgb(11, 116, 11);
+    background-color: rgba(11, 116, 0.200);
     height: 100px;
+
     text-align: center;
     padding-top: 55px;
     margin-top: 30px;
